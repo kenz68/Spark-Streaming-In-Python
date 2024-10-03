@@ -9,3 +9,4 @@
 
 *.crc
 */*/_SUCCESS
+.idea/
