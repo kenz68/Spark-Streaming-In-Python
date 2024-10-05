@@ -10,3 +10,4 @@
 *.crc
 */*/_SUCCESS
 .idea/
+/stockprice/data/stocks_price_final.csv
