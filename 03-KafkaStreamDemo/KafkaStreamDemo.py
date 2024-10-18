@@ -46,7 +46,7 @@ if __name__ == "__main__":
     ])
 
     kafka_df = spark.readStream \
-        .format("kafka") \
+        .format("json") \
         .option("kafka.bootstrap.servers", "localhost:9092") \
         .option("subscribe", "invoices") \
         .option("startingOffsets", "earliest") \
